@@ -6,20 +6,24 @@
 from PIL import Image # type: ignore
 
 #palmeiras
-imagem = Image.open("/Users/gabrielrossi/Downloads/kkk1.png")
+imagem = Image.open("unnamed.png")
 
 
 #medio: 
-largura, altura = 80 , 50 
+# largura, altura = 80 , 50 
+largura, altura = 200 , 90
 
-#largo: largura, altura = 480 , 300
-#pequeno:largura, altura = 200 , 100 
+
+#quadrado bom
+# largura, altura = 300 , 140
+#pequeno:
+#largura, altura = 200 , 100 
 
 imagem = imagem.resize((largura, altura))
 imagem = imagem.convert("L")
 
-caracteres_ascii = [" ", ".", "-", "*", ":", "=", "+", "#", "%", "@"]
-# caracteres_ascii = ["°", "/", "*", ";", "=", "+", "#", "%", "@"]         ##    !@#$%¨&*(_+=´
+# caracteres_ascii = [" ", ".", "-", "*", ":", "=", "+", "#", "%", "@"]
+caracteres_ascii = ["°", "/", "*", ";", "=", "+", "#", "%", "@"]         ##    !@#$%¨&*(_+=´
 
 pixels = imagem.load()
 ascii_image = ""
