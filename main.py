@@ -6,12 +6,14 @@
 from PIL import Image # type: ignore
 
 #palmeiras
-imagem = Image.open("unnamed.png")
+imagem = Image.open("yourImage.png")
 
 
 #medio: 
-# largura, altura = 80 , 50 
-largura, altura = 200 , 90
+largura, altura = 40 , 26 
+
+# largura, altura = 60 , 37 
+# largura, altura = 200 , 90
 
 
 #quadrado bom
@@ -23,7 +25,7 @@ imagem = imagem.resize((largura, altura))
 imagem = imagem.convert("L")
 
 # caracteres_ascii = [" ", ".", "-", "*", ":", "=", "+", "#", "%", "@"]
-caracteres_ascii = ["°", "/", "*", ";", "=", "+", "#", "%", "@"]         ##    !@#$%¨&*(_+=´
+caracteres_ascii = [" ", "/", "*", ";", "=", "+", "#", "%", "@"]         ##    !@#$%¨&*(_+=´
 
 pixels = imagem.load()
 ascii_image = ""
