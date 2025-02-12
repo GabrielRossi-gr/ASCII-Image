@@ -12,6 +12,6 @@
 
 </br>
 
-<div>
-  <img width="542" alt="Image" align="center" src="https://github.com/user-attachments/assets/4098caae-a4ef-4811-90f4-6983565eefb1" />
+<div align="center">
+  <img width="300" alt="Image" src="https://github.com/user-attachments/assets/4098caae-a4ef-4811-90f4-6983565eefb1" />
 </div>
